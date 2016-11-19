@@ -1,0 +1,28 @@
+{
+  "name": "serializable-form",
+  "version": "1.0.0",
+  "description": "Serializable form validation for universal web apps",
+  "main": "dist/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "lint": "eslint -c .eslintrc .",
+    "test": "mocha test/*.js"
+  },
+  "keywords": ["form", "validation", "serializable", "universal"],
+  "author": "Richard Foster <richard@rpf.me> (http://rpf.me)",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.18.2",
+    "babel-eslint": "^7.1.1",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-latest": "^6.16.0",
+    "chai": "^3.5.0",
+    "eslint": "^3.10.2",
+    "eslint-config-airbnb": "^12.0.0",
+    "mocha": "^3.1.2"
+  }
+}
