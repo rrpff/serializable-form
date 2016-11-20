@@ -3,7 +3,7 @@
 ## install
 
 ```sh
-$ npm install serializable-form --save-dev
+$ npm install serializable-form --save
 ```
 
 ## why?
