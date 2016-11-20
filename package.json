@@ -18,6 +18,10 @@
     "serializable",
     "universal"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zuren/serializable-form.git"
+  },
   "author": "Richard Foster <richard@rpf.me> (http://rpf.me)",
   "license": "ISC",
   "devDependencies": {
