@@ -9,7 +9,8 @@
   "scripts": {
     "build": "babel src --out-dir dist",
     "lint": "eslint -c .eslintrc .",
-    "test": "mocha test/*.js"
+    "test": "mocha test/*.js",
+    "prepublish": "npm run build"
   },
   "keywords": [
     "form",
