@@ -1,6 +1,6 @@
 {
   "name": "serializable-form",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Serializable form validation for universal web apps",
   "main": "dist/index.js",
   "directories": {
