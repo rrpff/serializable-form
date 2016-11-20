@@ -1,6 +1,6 @@
 {
   "name": "serializable-form",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Serializable form validation for universal web apps",
   "main": "dist/index.js",
   "directories": {
@@ -11,7 +11,12 @@
     "lint": "eslint -c .eslintrc .",
     "test": "mocha test/*.js"
   },
-  "keywords": ["form", "validation", "serializable", "universal"],
+  "keywords": [
+    "form",
+    "validation",
+    "serializable",
+    "universal"
+  ],
   "author": "Richard Foster <richard@rpf.me> (http://rpf.me)",
   "license": "ISC",
   "devDependencies": {
